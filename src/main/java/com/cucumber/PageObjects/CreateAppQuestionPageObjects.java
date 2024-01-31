@@ -43,7 +43,7 @@ public class CreateAppQuestionPageObjects {
 	
 	public void clickonAppQuestion() throws InterruptedException
 	{
-		 testbase.waitForElement(Constants.driver.findElement(AppQuestionLnk), TIMEOUT_WAIT,POOLING_WAIT);
+		 testbase.waitForElement(Constants.driver.findElement(AppQuestionLnk), FileReaderManager.getInstance().getConfigReader().getImplicitlyWait(),FileReaderManager.getInstance().getConfigReader().getPoolingWait());
 		JavascriptExecutor js1 = (JavascriptExecutor) driver;
 		
 		js1.executeScript("window.scrollBy(0,1000)");
