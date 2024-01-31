@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="NspiraHrmsPortal">
+
+	<listeners>
+		<listener class-name="com.cucumber.utility.Listener" />
+	</listeners>
+
+
+	  <test name="CreateAppQuestionChromeBrowser">
+		<parameter name="browser" value="chrome" />
+		<classes>
+			<class name="com.cucumber.TestRunner.CreateQuestionRunner" />
+			<class name="com.cucumber.TestRunner.LoginRunner"></class>
+		</classes>
+	</test>
+
+	
+	 
+   <!-- <test name="UserNewMailEditChromeBrowser">
+		<parameter name="browser" value="chrome" />
+		<classes>
+			<class name="com.cucumber.TestRunner.UserNewMailEditRunner" />	
+			
+		</classes>
+	</test>-->
+	
+	<!--  <test name="UserRecentCertificateGenerationsChromeBrowser">
+		<parameter name="browser" value="chrome" />
+		<classes>
+			<class name="com.cucumber.TestRunner.UserRecentCertificateGenerationsRunner" />	
+			
+		</classes>
+	</test>-->
+	
+	<!--  <test name="UserRecentCertificateGenerationsandVerificationsOriginalCertificatesChromeBrowser">
+		<parameter name="browser" value="chrome" />
+		<classes>
+			<class name="com.cucumber.TestRunner.UserRecentCertificateGenerationsandVerificationsOriginalCertificatesRunner" />	
+			
+		</classes>
+	</test>-->
+	
+	 <!-- <test name="UserRecentCertificateGenerationsandVerificationsQRCodeChromeBrowser">
+		<parameter name="browser" value="chrome" />
+		<classes>
+			<class name="com.cucumber.TestRunner.UserRecentCertificateGenerationsandVerificationsQRCodeRunner" />	
+			
+		</classes>
+	</test>-->
+ 
+      <!-- <test name="UserRecentCertificateGenerationsandVerificationsSendMailChromeBrowser">
+		<parameter name="browser" value="chrome" />
+		<classes>
+			<class name="com.cucumber.TestRunner.UserRecentCertificateGenerationsandVerificationsSendMailRunner" />	
+			
+		</classes>
+	</test>-->
+	
+	<!--  <test name="UserRecentCertificateGenerationsRecallChromeBrowser">
+		<parameter name="browser" value="chrome" />
+		<classes>
+			<class name="com.cucumber.TestRunner.UserRecentCertificateGenerationsRecallRunner" />	
+			
+		</classes>
+	</test>-->
+ 
+ 
+	<!--   <test name="UserRecentCertificateGenerationsRevokeChromeBrowser">
+		<parameter name="browser" value="chrome" />
+		<classes>
+			<class name="com.cucumber.TestRunner.UserRecentCertificateGenerationsRevokeRunner" />	
+			
+		</classes>
+	</test>-->
+	
+	<!--  <test name="UserRecentCertificateVerificationsChromeBrowser">
+		<parameter name="browser" value="chrome" />
+		<classes>
+			<class name="com.cucumber.TestRunner.UserRecentCertificateVerificationsRunner" />	
+			
+		</classes>
+	</test>-->
+	
+	<!-- <test name="UserSingleGenerationWithApprovalChromeBrowser">
+		<parameter name="browser" value="chrome" />
+		<classes>
+			<class name="com.cucumber.TestRunner.UserSingleGenerationWithApprovalRunner" />	
+			
+		</classes>
+	</test>-->
+	
+	
+	<!--  <test name="UserUpdateProfileChromeBrowser">
+		<parameter name="browser" value="chrome" />
+		<classes>
+			<class name="com.cucumber.TestRunner.UserUpdateProfileRunner" />	
+			
+		</classes>
+	</test>-->
+	
+	<!--  <test name="UserVerificationURLChromeBrowser">
+		<parameter name="browser" value="chrome" />
+		<classes>
+			<class name="com.cucumber.TestRunner.UserVerificationURLRunner" />	
+			
+		</classes>
+	</test>-->
+	
+	<!--  <test name="UserVerifiedCertificatesChromeBrowser">
+		<parameter name="browser" value="chrome" />
+		<classes>
+			<class name="com.cucumber.TestRunner.UserVerifiedCertificatesRunner" />	
+			
+		</classes>
+	</test>-->
+	
+	<!-- <test name="UserWelcomeTextChromeBrowser">
+		<parameter name="browser" value="chrome" />
+		<classes>
+			<class name="com.cucumber.TestRunner.UserWelcomeTextRunner" />	
+			
+		</classes>
+	</test>-->
+	
+	<!-- <test name="UserGenerateSingleWithoutApprovalChromeBrowser">
+		<parameter name="browser" value="chrome" />
+		<classes>
+			<class name="com.cucumber.TestRunner.UserGenerateSingleWithoutApprovalRunner" />	
+			
+		</classes>
+	</test>-->
+	
+	<!--<test name="AdminUpdateInstitutionChromeBrowser">
+		<parameter name="browser" value="chrome" />
+		<classes>
+			<class name="com.cucumber.TestRunner.AdminUpdateInstitutionRunner" />	
+			
+		</classes>
+	</test>-->
+	
+	<!-- <test name="UserDashboardViewAllGenerationsChromeBrowser">
+		<parameter name="browser" value="chrome" />
+		<classes>
+			<class name="com.cucumber.TestRunner.UserDashboardViewAllGenerationsRunner" />	
+			
+		</classes>
+	</test>-->
+	
+	<!-- <test name="AdminAddCertificateTypeChromeBrowser">
+		<parameter name="browser" value="chrome" />
+		<classes>
+			<class name="com.cucumber.TestRunner.AdminAddCertificateTypeRunner" />	
+			
+		</classes>
+	</test>-->
+	
+
+	
+ 
+ 
+</suite>
+
+
