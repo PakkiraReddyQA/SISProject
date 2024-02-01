@@ -1,9 +1,11 @@
 package com.cucumber.managers;
 
 import java.time.Duration;
+import java.util.Collections;
 import java.util.concurrent.TimeUnit;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeDriverService;
 import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.edge.EdgeOptions;
@@ -50,7 +52,10 @@ public class WebDriverManager {
 			  System.setProperty(CHROME_DRIVER_PROPERTY, System.getProperty("user.dir")
 						+ FileReaderManager.getInstance().getConfigReader().getChromePath());
 				ChromeOptions options = new ChromeOptions();
-				options.addArguments("--headless");
+//				options.addArguments("--headless");
+				
+			   
+			    options.addArguments("--window-size=1920,1080");
 				options.setBinary("C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe");
 				Constants.driver = new ChromeDriver(options);
 

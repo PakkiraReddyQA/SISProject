@@ -1,8 +1,13 @@
 package com.cucumber.PageObjects;
 
+import java.time.Duration;
+
 import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
+
 import com.cucumber.TestBase.TestBase;
 import com.cucumber.managers.FileReaderManager;
 import com.cucumber.utility.Constants;
@@ -40,12 +45,12 @@ public class CreateAppQuestionPageObjects {
 	
 	public void clickonAppQuestion() throws InterruptedException
 	{
-		 testbase.waitForElement(Constants.driver.findElement(AppQuestionLnk), FileReaderManager.getInstance().getConfigReader().getImplicitlyWait(),FileReaderManager.getInstance().getConfigReader().getPoolingWait());
-		JavascriptExecutor js1 = (JavascriptExecutor) driver;
-		
-		js1.executeScript("window.scrollBy(0,1000)");
-		Thread.sleep(1000);
+//		 testbase.waitForElement(Constants.driver.findElement(AppQuestionLnk), FileReaderManager.getInstance().getConfigReader().getImplicitlyWait(),FileReaderManager.getInstance().getConfigReader().getPoolingWait());
 	
+		WebDriverWait wt=new WebDriverWait(driver, Duration.ofSeconds(20));
+		wt.until(ExpectedConditions.visibilityOf(Constants.driver.findElement(AppQuestionLnk)));
+		JavascriptExecutor js1 = (JavascriptExecutor) driver;
+		js1.executeScript("window.scrollBy(0,3000)");
 		Constants.driver.findElement(AppQuestionLnk).click();
 		
 	}

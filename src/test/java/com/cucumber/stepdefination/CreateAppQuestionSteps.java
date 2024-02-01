@@ -1,9 +1,12 @@
 package com.cucumber.stepdefination;
 
+import java.time.Duration;
+
 import org.openqa.selenium.WebDriver;
 
 import com.cucumber.PageObjects.CreateAppQuestionPageObjects;
 import com.cucumber.PageObjects.LoginPageObjects;
+import com.cucumber.utility.Constants;
 import com.cucumber.utility.TestContext;
 
 import cucumber.api.java.en.*;
@@ -28,15 +31,15 @@ public class CreateAppQuestionSteps {
 	}
 	@Given("^LoginTo the Application$")
 	public void loginto_the_Application() throws Exception  {
-		Thread.sleep(1000);
-		
+	Constants.driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(20));
 		login.Logintoappln("pakkirareddy.y", "Pakkira@123");
 	}
 	
 	@Given("^Click by Question$")
 	public void Click_by_Question() throws Throwable
 	{
-		
+
+		Thread.sleep(1000);
 		caqp.clickonAppQuestion();
 	}
 

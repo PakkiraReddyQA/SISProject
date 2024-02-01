@@ -8,7 +8,7 @@
   <test name="CreateAppQuestionChromeBrowser">
     <parameter name="browser" value="chrome"/>
     <classes>
-      <class name="com.cucumber.TestRunner.CreateQuestionRunner"/>
+      <class name="com.cucumber.TestRunner.CreateQuestionRunnerTest"/>
     </classes>
   </test> <!-- CreateAppQuestionChromeBrowser -->
 </suite> <!-- Failed suite [NspiraHrmsPortal] -->
