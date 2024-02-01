@@ -51,7 +51,7 @@ public class WebDriverManager {
 						+ FileReaderManager.getInstance().getConfigReader().getChromePath());
 				ChromeOptions options = new ChromeOptions();
 				options.setBinary("C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe");
-				Constants.driver = new ChromeDriver(options);
+				Constants.driver = new ChromeDriver(/*options*/);
 
 		  }else if (driverType.name().equals("EDGE")) {
 				
@@ -63,7 +63,8 @@ public class WebDriverManager {
 			
 
 			}
-		  Constants.driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(20));
+		  Constants.driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
+		  Constants.driver.manage().window().maximize();
 
 		  Constants.driver.get(FileReaderManager.getInstance().getConfigReader().getApplicationUrl());
 		 
