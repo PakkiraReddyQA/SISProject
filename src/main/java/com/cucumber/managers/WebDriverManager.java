@@ -52,7 +52,7 @@ public class WebDriverManager {
 			  System.setProperty(CHROME_DRIVER_PROPERTY, System.getProperty("user.dir")
 						+ FileReaderManager.getInstance().getConfigReader().getChromePath());
 				ChromeOptions options = new ChromeOptions();
-//				options.addArguments("--headless");
+				options.addArguments("--headless");
 				
 			   
 			    options.addArguments("--window-size=1920,1080");
