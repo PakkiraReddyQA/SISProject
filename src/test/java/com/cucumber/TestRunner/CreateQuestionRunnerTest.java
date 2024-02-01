@@ -20,7 +20,7 @@ import cucumber.api.testng.AbstractTestNGCucumberTests;
 				"com.cucumber.listener.ExtentCucumberFormatter:target/cucumber-extent-reports/Extent_Report.html",
 				"pretty" }, monochrome = true, dryRun = false, strict = true)
 
-public class CreateQuestionRunner extends AbstractTestNGCucumberTests {
+public class CreateQuestionRunnerTest extends AbstractTestNGCucumberTests {
 
 	String testcasename;
 	WebDriverManager driverManager = new WebDriverManager();
@@ -28,7 +28,7 @@ public class CreateQuestionRunner extends AbstractTestNGCucumberTests {
 	
 	  @Parameters("browser")
 	  
-	  @BeforeClass public void beforeclass(String browser) {
+	  @BeforeClass public void beforeclass(/*String browser*/) {
 	  
 	  testcasename = this.getClass().getSimpleName();
 	  
@@ -39,7 +39,7 @@ public class CreateQuestionRunner extends AbstractTestNGCucumberTests {
 	 // "html:target/cucumber-reports/cucumber-pretty", 
 	 // "rerun:target/cucumber-reports/rerun.txt"
 	  
-	  driverManager.launchBrowser(browser);
+	  driverManager.launchBrowser("chrome");
 	  
 	  Log.startTestCase(testcasename);
 	   }
