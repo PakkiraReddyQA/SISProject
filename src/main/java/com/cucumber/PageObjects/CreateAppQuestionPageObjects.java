@@ -1,11 +1,8 @@
 package com.cucumber.PageObjects;
 
-import org.checkerframework.checker.units.qual.s;
 import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
-
 import com.cucumber.TestBase.TestBase;
 import com.cucumber.managers.FileReaderManager;
 import com.cucumber.utility.Constants;
@@ -47,6 +44,7 @@ public class CreateAppQuestionPageObjects {
 		JavascriptExecutor js1 = (JavascriptExecutor) driver;
 		
 		js1.executeScript("window.scrollBy(0,1000)");
+		Thread.sleep(1000);
 	
 		Constants.driver.findElement(AppQuestionLnk).click();
 		

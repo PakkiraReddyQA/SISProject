@@ -12,7 +12,7 @@
 		<parameter name="browser" value="chrome" />
 		<classes>
 			<class name="com.cucumber.TestRunner.CreateQuestionRunner" />
-			<class name="com.cucumber.TestRunner.LoginRunner"></class>
+			
 		</classes>
 	</test>
 

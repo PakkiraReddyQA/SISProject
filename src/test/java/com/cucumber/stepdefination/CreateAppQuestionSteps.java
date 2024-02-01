@@ -27,7 +27,8 @@ public class CreateAppQuestionSteps {
 
 	}
 	@Given("^LoginTo the Application$")
-	public void loginto_the_Application() throws Throwable {
+	public void loginto_the_Application() throws Exception  {
+		Thread.sleep(1000);
 		
 		login.Logintoappln("pakkirareddy.y", "Pakkira@123");
 	}
