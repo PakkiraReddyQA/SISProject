@@ -34450,3 +34450,15 @@
 2024-02-01 10:29:52,248 INFO  [Log] XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX 
 2024-02-01 10:29:52,248 INFO  [Log] X 
 2024-02-01 10:29:52,248 INFO  [Log] X 
+2024-02-01 10:48:28,316 INFO  [Log] **************************************************************************************** 
+2024-02-01 10:48:28,317 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 CreateQuestionRunnerTest       $$$$$$$$$$$$$$$$$$$$$$$$$ 
+2024-02-01 10:48:28,317 INFO  [Log] **************************************************************************************** 
+2024-02-01 10:48:30,077 INFO  [Log] Explicity wait applied on the driver for 60 seconds 
+2024-02-01 10:48:30,401 INFO  [Log] user_name is found on the Home page 
+2024-02-01 10:48:30,401 INFO  [Log] Explicity wait applied on the driver for 60 seconds 
+2024-02-01 10:48:30,498 INFO  [Log] password_txtbox is found on the Home page 
+2024-02-01 10:48:30,498 INFO  [Log] Explicity wait applied on the driver for 60 seconds 
+2024-02-01 10:48:30,571 INFO  [Log] password_txtbox is found on the Home page 
+2024-02-01 10:48:42,982 INFO  [Log] XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX 
+2024-02-01 10:48:42,982 INFO  [Log] X 
+2024-02-01 10:48:42,982 INFO  [Log] X 

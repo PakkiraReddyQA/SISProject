@@ -50,8 +50,9 @@ public class WebDriverManager {
 			  System.setProperty(CHROME_DRIVER_PROPERTY, System.getProperty("user.dir")
 						+ FileReaderManager.getInstance().getConfigReader().getChromePath());
 				ChromeOptions options = new ChromeOptions();
+				options.addArguments("--headless");
 				options.setBinary("C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe");
-				Constants.driver = new ChromeDriver(/*options*/);
+				Constants.driver = new ChromeDriver(options);
 
 		  }else if (driverType.name().equals("EDGE")) {
 				
