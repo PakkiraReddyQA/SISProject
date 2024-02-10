@@ -29,7 +29,7 @@ public class CreateQuestionRunner extends AbstractTestNGCucumberTests {
 	  @Parameters("browser")
 	  
 	  @BeforeClass 
-	  public void beforeclass(String browser) {
+	  public void beforeclass(/*String browser*/) {
 	  
 	  testcasename = this.getClass().getSimpleName();
 	  
@@ -42,7 +42,7 @@ public class CreateQuestionRunner extends AbstractTestNGCucumberTests {
 //	  "html:target/cucumber-reports/cucumber-pretty", 
 //	  "rerun:target/cucumber-reports/rerun.txt";
 	  
-	  driverManager.launchBrowser(browser);	
+	  driverManager.launchBrowser("chrome");	
 	  
 	  Log.startTestCase(testcasename);
 	   }

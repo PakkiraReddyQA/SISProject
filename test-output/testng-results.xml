@@ -1,24 +1,251 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results total="1" passed="1" failed="0" skipped="0">
+<testng-results total="2" passed="1" failed="1" skipped="0">
   <reporter-output>
+    <line>
+      <![CDATA[About to begin executing Suite NspiraHrmsPortal]]>
+    </line>
+    <line>
+      <![CDATA[About to begin executing Test CreateAppQuestionChromeBrowser]]>
+    </line>
+    <line>
+      <![CDATA[About to begin executing following method : AbstractTestNGCucumberTests.setUpClass]]>
+    </line>
+    <line>
+      <![CDATA[Completed executing following method : AbstractTestNGCucumberTests.setUpClass]]>
+    </line>
+    <line>
+      <![CDATA[About to begin executing following method : CreateQuestionRunner.beforeclass]]>
+    </line>
+    <line>
+      <![CDATA[Completed executing following method : CreateQuestionRunner.beforeclass]]>
+    </line>
+    <line>
+      <![CDATA[About to begin executing following method : AbstractTestNGCucumberTests.feature]]>
+    </line>
+    <line>
+      <![CDATA[Completed executing following method : AbstractTestNGCucumberTests.feature]]>
+    </line>
+    <line>
+      <![CDATA[Test Method resides in com.cucumber.TestRunner.CreateQuestionRunner]]>
+    </line>
+    <line>
+      <![CDATA[Test Method had the following parameters : nullApp Question,]]>
+    </line>
+    <line>
+      <![CDATA[Test Status: Failed]]>
+    </line>
+    <line>
+      <![CDATA[About to begin executing following method : CreateQuestionRunner.testDownClass]]>
+    </line>
+    <line>
+      <![CDATA[Completed executing following method : CreateQuestionRunner.testDownClass]]>
+    </line>
+    <line>
+      <![CDATA[About to begin executing following method : AbstractTestNGCucumberTests.tearDownClass]]>
+    </line>
+    <line>
+      <![CDATA[Completed executing following method : AbstractTestNGCucumberTests.tearDownClass]]>
+    </line>
+    <line>
+      <![CDATA[About to begin executing following method : AbstractTestNGCucumberTests.setUpClass]]>
+    </line>
+    <line>
+      <![CDATA[Completed executing following method : AbstractTestNGCucumberTests.setUpClass]]>
+    </line>
+    <line>
+      <![CDATA[About to begin executing following method : SearchQuestionRunner.beforeclass]]>
+    </line>
+    <line>
+      <![CDATA[Completed executing following method : SearchQuestionRunner.beforeclass]]>
+    </line>
+    <line>
+      <![CDATA[About to begin executing following method : AbstractTestNGCucumberTests.feature]]>
+    </line>
+    <line>
+      <![CDATA[Completed executing following method : AbstractTestNGCucumberTests.feature]]>
+    </line>
+    <line>
+      <![CDATA[Test Method resides in com.cucumber.TestRunner.SearchQuestionRunner]]>
+    </line>
+    <line>
+      <![CDATA[Test Method had the following parameters : nullApp Questions,]]>
+    </line>
+    <line>
+      <![CDATA[Test Status: Pass]]>
+    </line>
+    <line>
+      <![CDATA[About to begin executing following method : SearchQuestionRunner.testDownClass]]>
+    </line>
+    <line>
+      <![CDATA[Completed executing following method : SearchQuestionRunner.testDownClass]]>
+    </line>
+    <line>
+      <![CDATA[About to begin executing following method : AbstractTestNGCucumberTests.tearDownClass]]>
+    </line>
+    <line>
+      <![CDATA[Completed executing following method : AbstractTestNGCucumberTests.tearDownClass]]>
+    </line>
   </reporter-output>
-  <suite started-at="2024-02-10T14:49:19Z" name="Default suite" finished-at="2024-02-10T14:49:52Z" duration-ms="32580">
+  <suite started-at="2024-02-10T15:36:33Z" name="NspiraHrmsPortal" finished-at="2024-02-10T15:38:02Z" duration-ms="88986">
     <groups>
       <group name="cucumber">
-        <method signature="AbstractTestNGCucumberTests.feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.cucumber.TestRunner.SearchQuestionRunner@24ba9639]" name="feature" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
+        <method signature="AbstractTestNGCucumberTests.feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.cucumber.TestRunner.CreateQuestionRunner@ffaa6af]" name="feature" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
+        <method signature="AbstractTestNGCucumberTests.feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.cucumber.TestRunner.SearchQuestionRunner@53ce1329]" name="feature" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
       </group> <!-- cucumber -->
     </groups>
-    <test started-at="2024-02-10T14:49:19Z" name="Default test" finished-at="2024-02-10T14:49:52Z" duration-ms="32580">
-      <class name="com.cucumber.TestRunner.SearchQuestionRunner">
-        <test-method is-config="true" signature="setUpClass()[pri:0, instance:com.cucumber.TestRunner.SearchQuestionRunner@24ba9639]" started-at="2024-02-10T20:19:19Z" name="setUpClass" finished-at="2024-02-10T20:19:19Z" duration-ms="240" status="PASS">
+    <test started-at="2024-02-10T15:36:33Z" name="CreateAppQuestionChromeBrowser" finished-at="2024-02-10T15:38:02Z" duration-ms="88986">
+      <class name="com.cucumber.TestRunner.CreateQuestionRunner">
+        <test-method is-config="true" signature="setUpClass()[pri:0, instance:com.cucumber.TestRunner.CreateQuestionRunner@ffaa6af]" started-at="2024-02-10T21:06:33Z" name="setUpClass" finished-at="2024-02-10T21:06:34Z" duration-ms="192" status="PASS">
           <reporter-output>
+            <line>
+              <![CDATA[Completed executing following method : AbstractTestNGCucumberTests.setUpClass]]>
+            </line>
           </reporter-output>
         </test-method> <!-- setUpClass -->
-        <test-method is-config="true" signature="beforeclass()[pri:0, instance:com.cucumber.TestRunner.SearchQuestionRunner@24ba9639]" started-at="2024-02-10T20:19:19Z" name="beforeclass" finished-at="2024-02-10T20:19:28Z" duration-ms="9163" status="PASS">
+        <test-method is-config="true" signature="beforeclass(java.lang.String)[pri:0, instance:com.cucumber.TestRunner.CreateQuestionRunner@ffaa6af]" started-at="2024-02-10T21:06:34Z" name="beforeclass" finished-at="2024-02-10T21:07:09Z" duration-ms="35822" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
+            <line>
+              <![CDATA[Completed executing following method : CreateQuestionRunner.beforeclass]]>
+            </line>
           </reporter-output>
         </test-method> <!-- beforeclass -->
-        <test-method signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.cucumber.TestRunner.SearchQuestionRunner@24ba9639]" started-at="2024-02-10T20:19:29Z" name="feature" description="Runs Cucumber Feature" data-provider="features" finished-at="2024-02-10T20:19:51Z" duration-ms="22278" status="PASS">
+        <test-method signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.cucumber.TestRunner.CreateQuestionRunner@ffaa6af]" started-at="2024-02-10T21:07:10Z" name="feature" description="Runs Cucumber Feature" data-provider="features" finished-at="2024-02-10T21:07:27Z" duration-ms="17363" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[App Question]]>
+              </value>
+            </param>
+          </params>
+          <exception class="cucumber.runtime.CucumberException">
+            <message>
+              <![CDATA[org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <span class="mdc-button__label">...</span> is not clickable at point (1167, 179). Other element would receive the click: <div _ngcontent-ng-c3379062967="" class="cssload-container ng-star-inserted">...</div>
+  (Session info: chrome=119.0.6045.200)
+Build info: version: '4.12.1', revision: '8e34639b11'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.20'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [ab310aba6e2e361556b1bb98519a7ca1, clickElement {id=63BF208CFBD922FFAABB1A628A8F9A5C_element_37}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 119.0.6045.200, chrome: {chromedriverVersion: 119.0.6045.105 (38c72552c5e..., userDataDir: C:\Users\Admin\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50543}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50543/devtoo..., se:cdpVersion: 119.0.6045.200, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (ab310aba6e2e361556b1bb98519a7ca1)] -> xpath: //span[text()='Create']]
+Session ID: ab310aba6e2e361556b1bb98519a7ca1]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[cucumber.runtime.CucumberException: org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <span class="mdc-button__label">...</span> is not clickable at point (1167, 179). Other element would receive the click: <div _ngcontent-ng-c3379062967="" class="cssload-container ng-star-inserted">...</div>
+  (Session info: chrome=119.0.6045.200)
+Build info: version: '4.12.1', revision: '8e34639b11'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.20'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [ab310aba6e2e361556b1bb98519a7ca1, clickElement {id=63BF208CFBD922FFAABB1A628A8F9A5C_element_37}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 119.0.6045.200, chrome: {chromedriverVersion: 119.0.6045.105 (38c72552c5e..., userDataDir: C:\Users\Admin\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50543}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50543/devtoo..., se:cdpVersion: 119.0.6045.200, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (ab310aba6e2e361556b1bb98519a7ca1)] -> xpath: //span[text()='Create']]
+Session ID: ab310aba6e2e361556b1bb98519a7ca1
+	at cucumber.api.testng.TestNGCucumberRunner.runCucumber(TestNGCucumberRunner.java:69)
+	at cucumber.api.testng.AbstractTestNGCucumberTests.feature(AbstractTestNGCucumberTests.java:21)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:643)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+Caused by: org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <span class="mdc-button__label">...</span> is not clickable at point (1167, 179). Other element would receive the click: <div _ngcontent-ng-c3379062967="" class="cssload-container ng-star-inserted">...</div>
+  (Session info: chrome=119.0.6045.200)
+Build info: version: '4.12.1', revision: '8e34639b11'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.20'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [ab310aba6e2e361556b1bb98519a7ca1, clickElement {id=63BF208CFBD922FFAABB1A628A8F9A5C_element_37}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 119.0.6045.200, chrome: {chromedriverVersion: 119.0.6045.105 (38c72552c5e..., userDataDir: C:\Users\Admin\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50543}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50543/devtoo..., se:cdpVersion: 119.0.6045.200, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (ab310aba6e2e361556b1bb98519a7ca1)] -> xpath: //span[text()='Create']]
+Session ID: ab310aba6e2e361556b1bb98519a7ca1
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:602)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:224)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:77)
+	at com.cucumber.PageObjects.CreateAppQuestionPageObjects.ClickonGoandCraeteBtn(CreateAppQuestionPageObjects.java:63)
+	at com.cucumber.stepdefination.CreateAppQuestionSteps.click_on_the_GO_and_Create_Button(CreateAppQuestionSteps.java:49)
+	at ✽.And Click on the GO and Create Button(src/test/resources/features/CreateAppQuestion.feature:9)
+]]>
+            </full-stacktrace>
+          </exception> <!-- cucumber.runtime.CucumberException -->
+          <reporter-output>
+            <line>
+              <![CDATA[Completed executing following method : AbstractTestNGCucumberTests.feature]]>
+            </line>
+            <line>
+              <![CDATA[Test Method resides in com.cucumber.TestRunner.CreateQuestionRunner]]>
+            </line>
+            <line>
+              <![CDATA[Test Method had the following parameters : nullApp Question,]]>
+            </line>
+            <line>
+              <![CDATA[Test Status: Failed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method is-config="true" signature="testDownClass()[pri:0, instance:com.cucumber.TestRunner.CreateQuestionRunner@ffaa6af]" started-at="2024-02-10T21:07:27Z" name="testDownClass" finished-at="2024-02-10T21:07:27Z" duration-ms="198" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Completed executing following method : CreateQuestionRunner.testDownClass]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testDownClass -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:com.cucumber.TestRunner.CreateQuestionRunner@ffaa6af]" started-at="2024-02-10T21:07:27Z" name="tearDownClass" finished-at="2024-02-10T21:07:28Z" duration-ms="281" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Completed executing following method : AbstractTestNGCucumberTests.tearDownClass]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- com.cucumber.TestRunner.CreateQuestionRunner -->
+      <class name="com.cucumber.TestRunner.SearchQuestionRunner">
+        <test-method is-config="true" signature="setUpClass()[pri:0, instance:com.cucumber.TestRunner.SearchQuestionRunner@53ce1329]" started-at="2024-02-10T21:07:28Z" name="setUpClass" finished-at="2024-02-10T21:07:28Z" duration-ms="11" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Completed executing following method : AbstractTestNGCucumberTests.setUpClass]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method is-config="true" signature="beforeclass()[pri:0, instance:com.cucumber.TestRunner.SearchQuestionRunner@53ce1329]" started-at="2024-02-10T21:07:28Z" name="beforeclass" finished-at="2024-02-10T21:07:39Z" duration-ms="11488" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Completed executing following method : SearchQuestionRunner.beforeclass]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- beforeclass -->
+        <test-method signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.cucumber.TestRunner.SearchQuestionRunner@53ce1329]" started-at="2024-02-10T21:07:39Z" name="feature" description="Runs Cucumber Feature" data-provider="features" finished-at="2024-02-10T21:08:02Z" duration-ms="23055" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -27,17 +254,35 @@
             </param>
           </params>
           <reporter-output>
+            <line>
+              <![CDATA[Completed executing following method : AbstractTestNGCucumberTests.feature]]>
+            </line>
+            <line>
+              <![CDATA[Test Method resides in com.cucumber.TestRunner.SearchQuestionRunner]]>
+            </line>
+            <line>
+              <![CDATA[Test Method had the following parameters : nullApp Questions,]]>
+            </line>
+            <line>
+              <![CDATA[Test Status: Pass]]>
+            </line>
           </reporter-output>
         </test-method> <!-- feature -->
-        <test-method is-config="true" signature="testDownClass()[pri:0, instance:com.cucumber.TestRunner.SearchQuestionRunner@24ba9639]" started-at="2024-02-10T20:19:51Z" name="testDownClass" finished-at="2024-02-10T20:19:51Z" duration-ms="285" status="PASS">
+        <test-method is-config="true" signature="testDownClass()[pri:0, instance:com.cucumber.TestRunner.SearchQuestionRunner@53ce1329]" started-at="2024-02-10T21:08:02Z" name="testDownClass" finished-at="2024-02-10T21:08:02Z" duration-ms="186" status="PASS">
           <reporter-output>
+            <line>
+              <![CDATA[Completed executing following method : SearchQuestionRunner.testDownClass]]>
+            </line>
           </reporter-output>
         </test-method> <!-- testDownClass -->
-        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:com.cucumber.TestRunner.SearchQuestionRunner@24ba9639]" started-at="2024-02-10T20:19:51Z" name="tearDownClass" finished-at="2024-02-10T20:19:52Z" duration-ms="390" status="PASS">
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:com.cucumber.TestRunner.SearchQuestionRunner@53ce1329]" started-at="2024-02-10T21:08:02Z" name="tearDownClass" finished-at="2024-02-10T21:08:02Z" duration-ms="105" status="PASS">
           <reporter-output>
+            <line>
+              <![CDATA[Completed executing following method : AbstractTestNGCucumberTests.tearDownClass]]>
+            </line>
           </reporter-output>
         </test-method> <!-- tearDownClass -->
       </class> <!-- com.cucumber.TestRunner.SearchQuestionRunner -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+    </test> <!-- CreateAppQuestionChromeBrowser -->
+  </suite> <!-- NspiraHrmsPortal -->
 </testng-results>

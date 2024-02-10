@@ -206,7 +206,8 @@ public class WebDriverManager {
 	}
 
 	
-	  public void quitDriver() { 
+	  public void quitDriver() 
+	  {
 	  //driver.close();
 	  Constants.driver.quit();
 	  
