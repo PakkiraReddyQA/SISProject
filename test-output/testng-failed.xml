@@ -1,28 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="Failed suite [NspiraHrmsPortal]" guice-stage="DEVELOPMENT">
-  <parameter name="browser" value="chrome"/>
   <listeners>
     <listener class-name="com.cucumber.utility.Listener"/>
   </listeners>
   <test name="CreateAppQuestionChromeBrowser">
-    <parameter name="browser" value="chrome"/>
     <classes>
-      <class name="com.cucumber.TestRunner.CreateQuestionRunner"/>
       <class name="com.cucumber.TestRunner.SearchQuestionRunner"/>
+      <class name="com.cucumber.TestRunner.CreateQuestionRunner"/>
     </classes>
   </test> <!-- CreateAppQuestionChromeBrowser -->
   <test name="CreateAppQuestionChromeBrowser(failed)">
-    <parameter name="browser" value="chrome"/>
     <classes>
-      <class name="com.cucumber.TestRunner.SearchQuestionRunner">
-        <methods>
-          <include name="setUpClass"/>
-          <include name="beforeclass"/>
-          <include name="testDownClass"/>
-          <include name="tearDownClass"/>
-        </methods>
-      </class> <!-- com.cucumber.TestRunner.SearchQuestionRunner -->
       <class name="com.cucumber.TestRunner.CreateQuestionRunner">
         <methods>
           <include name="beforeclass"/>
@@ -32,6 +21,14 @@
           <include name="tearDownClass"/>
         </methods>
       </class> <!-- com.cucumber.TestRunner.CreateQuestionRunner -->
+      <class name="com.cucumber.TestRunner.SearchQuestionRunner">
+        <methods>
+          <include name="setUpClass"/>
+          <include name="beforeclass"/>
+          <include name="testDownClass"/>
+          <include name="tearDownClass"/>
+        </methods>
+      </class> <!-- com.cucumber.TestRunner.SearchQuestionRunner -->
     </classes>
   </test> <!-- CreateAppQuestionChromeBrowser(failed) -->
 </suite> <!-- Failed suite [NspiraHrmsPortal] -->
