@@ -14,7 +14,7 @@ import com.cucumber.utility.Log;
 import cucumber.api.CucumberOptions;
 import cucumber.api.testng.AbstractTestNGCucumberTests;
 
-@CucumberOptions(features = { "src/test/resources/features/Login.feature" }, glue = {
+@CucumberOptions(features = { "src/test/resources/features/SearchQuestion.feature" }, glue = {
 		"com/cucumber/stepdefination" }, plugin = { "json:target/cucumber-reports/cucumber.json",
 				"html:target/cucumber-pretty",
 				"com.cucumber.listener.ExtentCucumberFormatter:target/cucumber-extent-reports/Extent_Report.html",
@@ -28,9 +28,9 @@ public class SearchQuestionRunner extends AbstractTestNGCucumberTests {
 	
 	  @Parameters("browser")
 	  
-	  @BeforeClass public void beforeclass(String browser) {
+	  @BeforeClass public void beforeclass(/*String browser*/) {
 	  
-	  testcasename = this.getClass().getSimpleName();
+	  testcasename = this.getClass().getTypeName();
 	  
 	  System.out.println("***************** " + testcasename +
 	  " Test satrting *****************");
@@ -39,7 +39,7 @@ public class SearchQuestionRunner extends AbstractTestNGCucumberTests {
 	 // "html:target/cucumber-reports/cucumber-pretty", 
 	 // "rerun:target/cucumber-reports/rerun.txt"
 	  
-	  driverManager.launchBrowser(browser);
+	  driverManager.launchBrowser("chrome");
 	  
 	  Log.startTestCase(testcasename);
 	   }

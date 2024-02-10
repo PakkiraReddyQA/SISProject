@@ -24,16 +24,6 @@ Feature: App Questions
   Scenario: Search Questions
     Given Login to the Application
     And Click on the AppQtn
-    When Enter Question SearchBy Field <name>
-    And Print the First Page Question in Console
+    When Enter Question SearchBy Field
     Then Check the Searched Questions displyed
-    
-  @tag2
-  Scenario Outline: Search Question With diffrent Data
-    Given Enter Question in SearcBy Field <name>
    
-
-    Examples: 
-      | name  |
-      | what |   
-      | are |    

@@ -1,14 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="Failed suite [NspiraHrmsPortal]" guice-stage="DEVELOPMENT">
-  <parameter name="browser" value="chrome"/>
-  <listeners>
-    <listener class-name="com.cucumber.utility.Listener"/>
-  </listeners>
-  <test name="CreateAppQuestionChromeBrowser">
-    <parameter name="browser" value="chrome"/>
+<suite parallel="none" name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <test name="Default test" verbose="2">
     <classes>
-      <class name="com.cucumber.TestRunner.CreateQuestionRunnerTest"/>
+      <class name="com.cucumber.TestRunner.SearchQuestionRunner"/>
     </classes>
-  </test> <!-- CreateAppQuestionChromeBrowser -->
-</suite> <!-- Failed suite [NspiraHrmsPortal] -->
+  </test> <!-- Default test -->
+</suite> <!-- Failed suite [Default suite] -->

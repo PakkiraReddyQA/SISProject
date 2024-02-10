@@ -9,9 +9,9 @@
 
 
 	  <test name="CreateAppQuestionChromeBrowser">
-		<parameter name="browser" value="chrome" />
+	 <parameter name="browser" value="chrome" />
 		<classes>
-			<class name="com.cucumber.TestRunner.CreateQuestionRunnerTest" />
+			<class name="com.cucumber.TestRunner.CreateQuestionRunner" />
 			
 		</classes>
 	</test>

@@ -38,7 +38,8 @@ public class WebDriverManager {
 
 		  // If the browser is Firefox, then do this
 
-		  if(browser.equalsIgnoreCase("firefox")) {
+		  if(browser.equalsIgnoreCase("firefox")) 
+		  {
 			  System.setProperty(GECKO_DRIVER_PROPERTY, System.getProperty("user.dir")
 						+ FileReaderManager.getInstance().getConfigReader().getGeckoPath());
 		
@@ -47,24 +48,26 @@ public class WebDriverManager {
 	
 			  Constants.driver = new FirefoxDriver(options);	  
 
-		  }else if (browser.equalsIgnoreCase("chrome")) { 
+		  }
+		  else if (browser.equalsIgnoreCase("chrome")) 
+		  { 
 
-			  System.setProperty(CHROME_DRIVER_PROPERTY, System.getProperty("user.dir")
-						+ FileReaderManager.getInstance().getConfigReader().getChromePath());
+//			  System.setProperty(CHROME_DRIVER_PROPERTY, System.getProperty("user.dir")
+//						+ FileReaderManager.getInstance().getConfigReader().getChromePath());
 				ChromeOptions options = new ChromeOptions();
-				options.addArguments("--headless");
-				
-			   
-			    options.addArguments("--window-size=1920,1080");
-				options.setBinary("C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe");
+//				options.addArguments("--headless");
+//			    options.addArguments("--window-size=1920,1080");
+//				options.setBinary("C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe");
 				Constants.driver = new ChromeDriver(options);
 
-		  }else if (driverType.name().equals("EDGE")) {
+		  }else if (browser.equalsIgnoreCase("EDGE")) {
 				
-				System.setProperty(EDGE_DRIVER_PROPERTY,
-						System.getProperty("user.dir") + FileReaderManager.getInstance().getConfigReader().getEDGEPath());
+//				System.setProperty(EDGE_DRIVER_PROPERTY,
+//						System.getProperty("user.dir") + FileReaderManager.getInstance().getConfigReader().getEDGEPath());
 				EdgeOptions options = new EdgeOptions();
-				options.setBinary("C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe");
+				options.addArguments("--headless");
+			    options.addArguments("--window-size=1920,1080");
+//				options.setBinary("C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe");
 				Constants.driver = new EdgeDriver(options);
 			
 

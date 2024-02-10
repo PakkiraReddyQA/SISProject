@@ -8,7 +8,21 @@
   <test name="CreateAppQuestionChromeBrowser">
     <parameter name="browser" value="chrome"/>
     <classes>
-      <class name="com.cucumber.TestRunner.CreateQuestionRunnerTest"/>
+      <class name="com.cucumber.TestRunner.CreateQuestionRunner"/>
     </classes>
   </test> <!-- CreateAppQuestionChromeBrowser -->
+  <test name="CreateAppQuestionChromeBrowser(failed)">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="com.cucumber.TestRunner.CreateQuestionRunner">
+        <methods>
+          <include name="beforeclass"/>
+          <include name="setUpClass"/>
+          <include name="feature" invocation-numbers="0"/>
+          <include name="testDownClass"/>
+          <include name="tearDownClass"/>
+        </methods>
+      </class> <!-- com.cucumber.TestRunner.CreateQuestionRunner -->
+    </classes>
+  </test> <!-- CreateAppQuestionChromeBrowser(failed) -->
 </suite> <!-- Failed suite [NspiraHrmsPortal] -->

@@ -74,7 +74,7 @@ public class TestBase {
 	}
 
 	/**
-	 * 
+	 * This method will until the WebElement Visible 
 	 * @param element
 	 * @param timeOutInSeconds
 	 * @param pollingEveryInMiliSec

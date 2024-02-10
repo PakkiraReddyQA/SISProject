@@ -88,8 +88,4 @@ public class CreateAppQuestionPageObjects {
    
        Constants.driver.findElement(CreateBtn2).click();
        }
-  
-	
-	
-	
 }
