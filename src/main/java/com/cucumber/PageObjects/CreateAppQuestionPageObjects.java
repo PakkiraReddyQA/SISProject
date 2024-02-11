@@ -22,7 +22,7 @@ public class CreateAppQuestionPageObjects {
 	
 	By GoBtn= By.xpath("//span[text()='Go']");
 	
-	By CreateBtn1= By.xpath("//span[text()='Create']");
+	By CreateBtn1= By.xpath("(//span[text()='Create'])[1]");
 	
 	By EnterQuestionEdt= By.name("question");
 	
@@ -31,7 +31,7 @@ public class CreateAppQuestionPageObjects {
 	By QtnTypeValue= By.xpath("//span[text()='List']");
 	
 	
-	By NoOfAnserDrpDwn= By.xpath("(//mat-select[@role='combobox'])[3]");
+	By NoOfAnserDrpDwn= By.xpath("(//mat-select[@role='combobox'])[4]");
 	
 	By CreateBtn2= By.xpath("(//span[text()='Create'])[2]");
 	
@@ -55,12 +55,14 @@ public class CreateAppQuestionPageObjects {
 		Constants.driver.findElement(AppQuestionLnk).click();
 		
 	}
-	public void ClickonGoandCraeteBtn()
+	public void ClickonGoandCraeteBtn() throws Exception 
 	{
 	 testbase.waitForElement(Constants.driver.findElement(GoBtn), TIMEOUT_WAIT,POOLING_WAIT);
 
 		Constants.driver.findElement(GoBtn).click();
-//		testbase.waitForElement(Constants.driver.findElement(CreateBtn1), FileReaderManager.getInstance().getConfigReader().getImplicitlyWait(),FileReaderManager.getInstance().getConfigReader().getPoolingWait());
+		Thread.sleep(8000);
+		testbase.waitForElement(Constants.driver.findElement(CreateBtn1), FileReaderManager.getInstance().getConfigReader().getImplicitlyWait(),FileReaderManager.getInstance().getConfigReader().getPoolingWait());
+//		Thread.sleep(2000);
 		Constants.driver.findElement(CreateBtn1).click();
 	}
 	public void EnterQuestion()

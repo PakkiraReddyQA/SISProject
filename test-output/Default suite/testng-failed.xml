@@ -6,17 +6,4 @@
       <class name="com.cucumber.TestRunner.CreateQuestionRunner"/>
     </classes>
   </test> <!-- Default test -->
-  <test parallel="none" name="Default test(failed)">
-    <classes>
-      <class name="com.cucumber.TestRunner.CreateQuestionRunner">
-        <methods>
-          <include name="beforeclass"/>
-          <include name="setUpClass"/>
-          <include name="feature" invocation-numbers="0"/>
-          <include name="testDownClass"/>
-          <include name="tearDownClass"/>
-        </methods>
-      </class> <!-- com.cucumber.TestRunner.CreateQuestionRunner -->
-    </classes>
-  </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
