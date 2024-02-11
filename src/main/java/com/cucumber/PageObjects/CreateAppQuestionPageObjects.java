@@ -27,6 +27,7 @@ public class CreateAppQuestionPageObjects {
 	By EnterQuestionEdt= By.name("question");
 	
 	By QtnType= By.xpath("//mat-label[text()='select']");
+	
 	By QtnTypeValue= By.xpath("//span[text()='List']");
 	
 	
@@ -67,7 +68,7 @@ public class CreateAppQuestionPageObjects {
 		testbase.waitForElement(Constants.driver.findElement(EnterQuestionEdt), TIMEOUT_WAIT,POOLING_WAIT);
 		Constants.driver.findElement(EnterQuestionEdt).sendKeys("Class?");
 	}
-	public void SelectTypeandEnterAnswers()
+	public void SelectTypeandEnterAnswers() throws InterruptedException
 	{
 		testbase.waitForElement(Constants.driver.findElement(QtnType), FileReaderManager.getInstance().getConfigReader().getImplicitlyWait(),FileReaderManager.getInstance().getConfigReader().getPoolingWait());
        Constants.driver.findElement(QtnType).click();
@@ -77,7 +78,7 @@ public class CreateAppQuestionPageObjects {
        Constants.driver.findElement(QtnTypeValue).click();
        
        Constants.driver.findElement(NoOfAnserDrpDwn).click();
-       
+       Thread.sleep(2000);
        Constants.driver.findElement(NoOfAnswerValue).click();
 		testbase.waitForElement(Constants.driver.findElement(By.id("answer0")), FileReaderManager.getInstance().getConfigReader().getImplicitlyWait(),FileReaderManager.getInstance().getConfigReader().getPoolingWait());
 
