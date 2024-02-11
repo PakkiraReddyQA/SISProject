@@ -10,25 +10,4 @@
       <class name="com.cucumber.TestRunner.CreateQuestionRunner"/>
     </classes>
   </test> <!-- CreateAppQuestionChromeBrowser -->
-  <test name="CreateAppQuestionChromeBrowser(failed)">
-    <classes>
-      <class name="com.cucumber.TestRunner.CreateQuestionRunner">
-        <methods>
-          <include name="beforeclass"/>
-          <include name="setUpClass"/>
-          <include name="feature" invocation-numbers="0"/>
-          <include name="testDownClass"/>
-          <include name="tearDownClass"/>
-        </methods>
-      </class> <!-- com.cucumber.TestRunner.CreateQuestionRunner -->
-      <class name="com.cucumber.TestRunner.SearchQuestionRunner">
-        <methods>
-          <include name="setUpClass"/>
-          <include name="beforeclass"/>
-          <include name="testDownClass"/>
-          <include name="tearDownClass"/>
-        </methods>
-      </class> <!-- com.cucumber.TestRunner.SearchQuestionRunner -->
-    </classes>
-  </test> <!-- CreateAppQuestionChromeBrowser(failed) -->
 </suite> <!-- Failed suite [NspiraHrmsPortal] -->
