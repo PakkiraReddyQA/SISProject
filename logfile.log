@@ -35332,3 +35332,75 @@
 2024-02-11 19:04:48,092 INFO  [Log] XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX 
 2024-02-11 19:04:48,092 INFO  [Log] X 
 2024-02-11 19:04:48,092 INFO  [Log] X 
+2024-02-13 18:34:57,623 INFO  [Log] **************************************************************************************** 
+2024-02-13 18:34:57,625 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 com.cucumber.TestRunner.SearchQuestionRunner       $$$$$$$$$$$$$$$$$$$$$$$$$ 
+2024-02-13 18:34:57,626 INFO  [Log] **************************************************************************************** 
+2024-02-13 18:34:58,263 INFO  [Log] Explicity wait applied on the driver for 60 seconds 
+2024-02-13 18:34:58,380 INFO  [Log] user_name is found on the Home page 
+2024-02-13 18:34:58,381 INFO  [Log] Explicity wait applied on the driver for 60 seconds 
+2024-02-13 18:34:58,468 INFO  [Log] password_txtbox is found on the Home page 
+2024-02-13 18:34:58,468 INFO  [Log] Explicity wait applied on the driver for 60 seconds 
+2024-02-13 18:34:58,537 INFO  [Log] password_txtbox is found on the Home page 
+2024-02-13 18:35:19,797 INFO  [Log] XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX 
+2024-02-13 18:35:19,797 INFO  [Log] X 
+2024-02-13 18:35:19,797 INFO  [Log] X 
+2024-02-22 22:52:13,429 INFO  [Log] **************************************************************************************** 
+2024-02-22 22:52:13,430 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 CreateQuestionRunner       $$$$$$$$$$$$$$$$$$$$$$$$$ 
+2024-02-22 22:52:13,430 INFO  [Log] **************************************************************************************** 
+2024-02-22 22:52:14,086 INFO  [Log] Explicity wait applied on the driver for 60 seconds 
+2024-02-22 22:52:14,209 INFO  [Log] user_name is found on the Home page 
+2024-02-22 22:52:14,209 INFO  [Log] Explicity wait applied on the driver for 60 seconds 
+2024-02-22 22:52:14,302 INFO  [Log] password_txtbox is found on the Home page 
+2024-02-22 22:52:14,302 INFO  [Log] Explicity wait applied on the driver for 60 seconds 
+2024-02-22 22:52:14,371 INFO  [Log] password_txtbox is found on the Home page 
+2024-02-22 22:52:44,541 INFO  [Log] XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX 
+2024-02-22 22:52:44,541 INFO  [Log] X 
+2024-02-22 22:52:44,541 INFO  [Log] X 
+2024-02-22 22:54:04,590 INFO  [Log] **************************************************************************************** 
+2024-02-22 22:54:04,591 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 CreateQuestionRunner       $$$$$$$$$$$$$$$$$$$$$$$$$ 
+2024-02-22 22:54:04,591 INFO  [Log] **************************************************************************************** 
+2024-02-22 22:54:05,762 INFO  [Log] Explicity wait applied on the driver for 60 seconds 
+2024-02-22 22:54:05,950 INFO  [Log] user_name is found on the Home page 
+2024-02-22 22:54:05,950 INFO  [Log] Explicity wait applied on the driver for 60 seconds 
+2024-02-22 22:54:06,046 INFO  [Log] password_txtbox is found on the Home page 
+2024-02-22 22:54:06,046 INFO  [Log] Explicity wait applied on the driver for 60 seconds 
+2024-02-22 22:54:06,122 INFO  [Log] password_txtbox is found on the Home page 
+2024-02-22 22:54:40,126 INFO  [Log] XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX 
+2024-02-22 22:54:40,126 INFO  [Log] X 
+2024-02-22 22:54:40,126 INFO  [Log] X 
+2024-02-22 22:56:46,355 INFO  [Log] **************************************************************************************** 
+2024-02-22 22:56:46,356 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 CreateQuestionRunner       $$$$$$$$$$$$$$$$$$$$$$$$$ 
+2024-02-22 22:56:46,356 INFO  [Log] **************************************************************************************** 
+2024-02-22 22:56:47,483 INFO  [Log] Explicity wait applied on the driver for 60 seconds 
+2024-02-22 22:56:47,746 INFO  [Log] user_name is found on the Home page 
+2024-02-22 22:56:47,746 INFO  [Log] Explicity wait applied on the driver for 60 seconds 
+2024-02-22 22:56:47,924 INFO  [Log] password_txtbox is found on the Home page 
+2024-02-22 22:56:47,924 INFO  [Log] Explicity wait applied on the driver for 60 seconds 
+2024-02-22 22:56:48,014 INFO  [Log] password_txtbox is found on the Home page 
+2024-02-22 22:57:14,360 INFO  [Log] XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX 
+2024-02-22 22:57:14,360 INFO  [Log] X 
+2024-02-22 22:57:14,360 INFO  [Log] X 
+2024-02-22 22:59:22,603 INFO  [Log] **************************************************************************************** 
+2024-02-22 22:59:22,604 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 CreateQuestionRunner       $$$$$$$$$$$$$$$$$$$$$$$$$ 
+2024-02-22 22:59:22,604 INFO  [Log] **************************************************************************************** 
+2024-02-22 22:59:23,723 INFO  [Log] Explicity wait applied on the driver for 60 seconds 
+2024-02-22 22:59:23,920 INFO  [Log] user_name is found on the Home page 
+2024-02-22 22:59:23,920 INFO  [Log] Explicity wait applied on the driver for 60 seconds 
+2024-02-22 22:59:24,000 INFO  [Log] password_txtbox is found on the Home page 
+2024-02-22 22:59:24,000 INFO  [Log] Explicity wait applied on the driver for 60 seconds 
+2024-02-22 22:59:24,160 INFO  [Log] password_txtbox is found on the Home page 
+2024-02-22 22:59:46,284 INFO  [Log] XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX 
+2024-02-22 22:59:46,284 INFO  [Log] X 
+2024-02-22 22:59:46,284 INFO  [Log] X 
+2024-02-22 23:03:07,457 INFO  [Log] **************************************************************************************** 
+2024-02-22 23:03:07,458 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 CreateQuestionRunner       $$$$$$$$$$$$$$$$$$$$$$$$$ 
+2024-02-22 23:03:07,458 INFO  [Log] **************************************************************************************** 
+2024-02-22 23:03:08,040 INFO  [Log] Explicity wait applied on the driver for 60 seconds 
+2024-02-22 23:03:08,154 INFO  [Log] user_name is found on the Home page 
+2024-02-22 23:03:08,154 INFO  [Log] Explicity wait applied on the driver for 60 seconds 
+2024-02-22 23:03:08,240 INFO  [Log] password_txtbox is found on the Home page 
+2024-02-22 23:03:08,240 INFO  [Log] Explicity wait applied on the driver for 60 seconds 
+2024-02-22 23:03:08,334 INFO  [Log] password_txtbox is found on the Home page 
+2024-02-22 23:03:36,613 INFO  [Log] XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX 
+2024-02-22 23:03:36,613 INFO  [Log] X 
+2024-02-22 23:03:36,613 INFO  [Log] X 

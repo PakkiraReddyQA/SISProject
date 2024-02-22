@@ -32,7 +32,7 @@ public class CreateAppQuestionSteps {
 	@Given("^LoginTo the Application$")
 	public void loginto_the_Application() throws Exception  {
 	Constants.driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(20));
-		login.Logintoappln("pakkirareddy.yy", "Pakkira@123");
+		login.Logintoappln("pakkirareddyadmin", "Pakkira@123");
 	}
 	
 	@Given("^Click by Question$")
