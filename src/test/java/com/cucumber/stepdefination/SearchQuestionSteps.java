@@ -24,7 +24,7 @@ public class SearchQuestionSteps
 	
 	@Given("^Login to the Application$")
 	public void login_to_the_Application() throws Throwable {
-		login.Logintoappln("pakkirareddy.yy","Pakkira@123");
+		login.Logintoappln("pakkirareddyadmin","Pakkira@123");
 	  
 	}
 
